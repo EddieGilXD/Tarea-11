@@ -1,42 +1,37 @@
-                               retoUno
+retoUno
 
-Crea una funciÃ³n colorMessage()que tome 2 argumentos de cadena 
+Crea una función colorMessage() que tome 2 argumentos de cadena 
 favoriteColor y shirtColor.
 
 Si el valor de favoriteColor es el mismo que el valor de shirtColor
 devuelve la cadena 'The shirt is your favorite color!'.
 
-En caso contrario, devuelve la cadena.'That is a nice color.'
- 
-
-   
-                            retoDos
-
-Crea una funciÃ³n isEven()que tome un nÃºmero como Ãºnico parÃ¡metro. 
-La funciÃ³n debe devolver un resultado true si el nÃºmero es par y false 
-si el nÃºmero es impar.
+En caso contrario, devuelve la cadena 'That is a nice color.'
 
 
+retoDos
+
+Crea una función isEven() que tome un número como único parámetro. 
+La función debe devolver un resultado true si el número es par y false 
+si el número es impar.
 
 
+retoTres
 
+Crea una función numberDigits() que tome la variable x como su único 
+parámetro.
 
-                             retoTres
-
-Crea una funciÃ³n numberDigits() que tome la variable x como su Ãºnico 
-parÃ¡metro.
-
-*Si la variable x estÃ¡ entre 0 y 9, devuelve la cadena 'One digit: N' , 
-donde N es el valor de x. Por ejemplo, numberDigits(5) devolverÃ­a:
+* Si la variable x está entre 0 y 9, devuelve la cadena 'One digit: N', 
+donde N es el valor de x. Por ejemplo, numberDigits(5) devolvería:
 
 'One digit: 5'
 
-*Si la variable x estÃ¡ entre 10 y 99, devuelve la cadena 'Two digits: N' , 
-donde N es el valor de x. Por ejemplo, numberDigits(12) se generarÃ­a:
+* Si la variable x está entre 10 y 99, devuelve la cadena 'Two digits: N', 
+donde N es el valor de x. Por ejemplo, numberDigits(12) se generaría:
 
 'Two digits: 12'
 
-*Cualquier otro valor de x, incluidos los nÃºmeros negativos, 
-devuelve la cadena 'The number is: N' , donde N es el valor de x. 
-Por ejemplo, numberDigits(-202)se generarÃ­a:
+* Cualquier otro valor de x, incluidos los números negativos, 
+devuelve la cadena 'The number is: N', donde N es el valor de x. 
+Por ejemplo, numberDigits(-202) se generaría:
 'The number is: -202'
